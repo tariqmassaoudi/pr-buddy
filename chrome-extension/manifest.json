@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Azure DevOps PR Buddy",
+  "version": "1.0.0",
+  "description": "Your friendly AI assistant that helps write PR descriptions and provides code reviews in Azure DevOps",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "src/assets/icon16.png",
+      "32": "src/assets/icon32.png",
+      "48": "src/assets/icon48.png",
+      "128": "src/assets/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.dev.azure.com/*"],
+      "js": ["src/content.ts"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["*://*.dev.azure.com/*"]
+} 
