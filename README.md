@@ -8,9 +8,6 @@
   </p>
 </div>
 
-## Demo
-https://github.com/user-attachments/assets/c5901fc6-63b0-4ccd-945b-d075782bfdbc
-
 
 ## Overview
 
@@ -19,12 +16,16 @@ PR Buddy helps developers create and review pull requests in Azure DevOps using 
 - **LangGraph AI Agents** for generating PR descriptions and code reviews
 - **Chrome Extension** that seamlessly integrates with Azure DevOps
 
+## Demo
+
+https://github.com/user-attachments/assets/c5901fc6-63b0-4ccd-945b-d075782bfdbc
+
+
 ## Features
 
 - 📝 **Generate PR Descriptions** - Create clear, professional PR documentation
 - 🔍 **AI Code Reviews** - Get instant feedback on code quality and potential issues
 - 🔄 **Azure DevOps Integration** - Works within your existing workflow
-- 🎮 **Simple UI** - One-click access to AI assistance
 
 ## Quick Start
 
@@ -87,13 +88,6 @@ langgraph dev
 cd chrome-extension
 npm run dev
 ```
-
-## Requirements
-
-- Azure OpenAI API access (GPT-4 or similar)
-- Azure DevOps organization
-- Chrome browser
-
 ## License
 
 MIT License
