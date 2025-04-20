@@ -6,10 +6,11 @@
   <p align="center">
     AI-powered PR writer and reviewer for Azure DevOps
   </p>
-  <a href="https://github.com/user-attachments/assets/a8e25c1a-9eed-4dfb-b47b-34feaacfec6b">
-    <img src="https://github.com/user-attachments/assets/a8e25c1a-9eed-4dfb-b47b-34feaacfec6b" width="600">
-  </a>
 </div>
+
+## Demo
+https://github.com/user-attachments/assets/c5901fc6-63b0-4ccd-945b-d075782bfdbc
+
 
 ## Overview
 
