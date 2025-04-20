@@ -74,8 +74,9 @@ https://github.com/user-attachments/assets/c5901fc6-63b0-4ccd-945b-d075782bfdbc
 ## Usage
 
 1. Navigate to an Azure DevOps PR
-2. Click "Write PR" to generate description or "Review PR" for code feedback
-3. Use the extension popup to check connection status and access quick actions
+2. Use the extension popup to check connection status
+3. Click "Write PR" to generate description or "Review PR" for code feedback
+
 
 ## License
 
