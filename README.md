@@ -33,8 +33,9 @@ https://github.com/user-attachments/assets/c5901fc6-63b0-4ccd-945b-d075782bfdbc
 
 1. Clone repository and install dependencies
    ```
-   git clone https://github.com/yourusername/prbuddy.git
+   git clone https://github.com/tariqmassaoudi/pr-buddy.git
    cd prbuddy/backend
+   Optionally set up a virtual environment Python >= 3.11.10 is required 
    pip install -r requirements.txt
    ```
 
@@ -51,8 +52,14 @@ https://github.com/user-attachments/assets/c5901fc6-63b0-4ccd-945b-d075782bfdbc
    AZURE_ORGANIZATION_URL="https://dev.azure.com/your-organization"
    AZURE_PERSONAL_ACCESS_TOKEN="your-pat"
    ```
-
-3. Start LangGraph server
+3. Install the langgraph CLI
+      ```
+   pip install langgraph-cli
+   or
+   brew install langgraph-cli (if on macos)
+   ```
+   
+5. Start LangGraph server
    ```
    langgraph dev
    ```
